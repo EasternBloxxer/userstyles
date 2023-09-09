@@ -6,62 +6,71 @@
 @author       daender
 @license      No License
 ==/UserStyle== */
-
 @-moz-document domain("pb-kronos.dev") {
-     .navbar-dark {
-         box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.5);
+    .navbar-dark {
+        box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.5);
     }
-     footer {
-         box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.3);
+    footer {
+        box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.3);
     }
     .bg-primary {
-        background-color:#17345e !important
+        background-color: #17345e !important
     }
-     .jumbotron {
-         background: url(https://cdn.glitch.com/a3d7d998-4e51-4940-9a18-20adb8649ae1%2Fpbssaposterpng.png?v=1608778657657);
-         color: #ffffff;
-         background-size: cover;
-         padding-top: 100px;
-         padding-bottom: 100px;
-         overflow:auto;
+    .jumbotron {
+        background: url(https://cdn.glitch.com/a3d7d998-4e51-4940-9a18-20adb8649ae1%2Fpbssaposterpng.png?v=1608778657657);
+        color: #ffffff;
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        overflow: auto;
     }
     /*.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl
     {
         text-align:center
     }*/
-     .card {
-         background-color: #363636;
+    .card {
+        background-color: #363636;
     }
-     body {
-         padding-top: 50px;
-         padding-bottom: 70px;
-         background-color: #2D2D2D;
-         color: #ffffff;
+    body {
+        padding-top: 50px;
+        background-color: #2D2D2D;
+        color: #ffffff;
     }
-     .illuminator {
-         background-color: #1B1B1B;
-         border-radius: 6px;
-         border-left: 6px solid #17345e !important;
-         padding: 20px 20px 20px 20px;
+    #userCard {
+        margin-bottom: 20px;
     }
-
-     .table {
-         color: #dee2e6;
+    .bg-light {
+        padding-top: 0px !important;
+        background-color: #1b1b1b !important;
+        color: #ffffff;
     }
-     .navbar-expand-lg .navbar-nav .dropdown-menu {
-         background-color:#363636 
+    .text-center .p-4 {
+        background-color: rgb(0 0 0 / 25%)!important
     }
-     .dropdown-divider {
-         color: #dee2e6;
+    .illuminator {
+        background-color: #1B1B1B;
+        border-radius: 6px;
+        border-left: 6px solid #17345e !important;
+        padding: 20px 20px 30px 20px;
+        margin-bottom: 20px;
     }
-    .dropdown-item{
-        color:rgba(255,255,255,.75)
+    .table {
+        color: #dee2e6;
     }
-     #footer {
-         background-color: #222 !important;
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        background-color: #363636
     }
-     .navbar-light .navbar-text {
-         color:rgba(221, 219, 219, 0.75);
-         padding-left:7px 
+    .dropdown-divider {
+        color: #dee2e6;
+    }
+    .dropdown-item {
+        color: rgba(255, 255, 255, .75)
+    }
+    #footer {
+        background-color: #222 !important;
+    }
+    .navbar-light .navbar-text {
+        color: rgba(221, 219, 219, 0.75);
+        padding-left: 7px
     }
 }
